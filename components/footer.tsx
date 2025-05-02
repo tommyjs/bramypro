@@ -12,8 +12,7 @@ export default function Footer() {
               <span className="text-blue-700">BRAMY</span> PRO
             </h3>
             <p className="text-gray-300 mb-4">
-              Professional fencing solutions for residential and commercial properties. Quality materials and expert
-              installation.
+              Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.
             </p>
             <div className="flex items-center space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Facebook">
@@ -55,7 +54,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Przydatne linki</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-white transition-colors">
@@ -64,22 +63,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/products" className="text-gray-300 hover:text-white transition-colors">
-                  Products
+                  O Nas
                 </Link>
               </li>
               <li>
                 <Link href="/projects" className="text-gray-300 hover:text-white transition-colors">
-                  Our Projects
+                  Nasz Realizacje
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
-                  Contact
+                  Kontakt
                 </Link>
               </li>
             </ul>
@@ -87,28 +81,28 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-blue-700 mr-3 mt-0.5" />
                 <span className="text-gray-300">
-                  123 Fence Street
+                  ul. Marszałka Józefa Piłsudskiego 14
                   <br />
-                  Warsaw, 00-001
+                  95-050 Konstantynów Łódzki
                   <br />
-                  Poland
+                  NIP 831-145-12-00
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-700 mr-3" />
-                <a href="tel:+48123456789" className="text-gray-300 hover:text-white transition-colors">
-                  +48 123 456 789
+                <a href="tel:+48783796032" className="text-gray-300 hover:text-white transition-colors">
+                  +48 783 796 032
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-700 mr-3" />
-                <a href="mailto:info@bramypro.com" className="text-gray-300 hover:text-white transition-colors">
-                  info@bramypro.com
+                <a href="mailto:bramypro@gmail.com" className="text-gray-300 hover:text-white transition-colors">
+                  bramypro@gmail.com
                 </a>
               </li>
             </ul>
@@ -116,7 +110,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Nice Fence. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Bramy Pro. Wszystkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>

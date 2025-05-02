@@ -14,9 +14,9 @@ export default function ProjectsPage() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="container px-4 md:px-6 text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Our Projects</h1>
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Nasze Projekty</h1>
             <p className="mt-4 text-xl text-white max-w-3xl mx-auto">
-              Explore our portfolio of completed gate and fence installations
+              Poznaj nasze portfolio zrealizowanych instalacji bram i ogrodzeń
             </p>
           </div>
         </div>
@@ -37,10 +37,10 @@ export default function ProjectsPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Modern Residential Gate</h3>
-                <p className="text-gray-600 mb-2">Warsaw, Poland</p>
+                <h3 className="text-xl font-bold mb-2">Nowoczesna Brama Mieszkalna</h3>
+                <p className="text-gray-600 mb-2">Warszawa, Polska</p>
                 <p className="text-gray-600">
-                  A contemporary sliding gate installation for a modern home, providing security and style.
+                  Nowoczesna instalacja bramy przesuwnej dla nowoczesnego domu, zapewniająca bezpieczeństwo i styl.
                 </p>
               </div>
             </div>
@@ -56,10 +56,10 @@ export default function ProjectsPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Commercial Property Fence</h3>
-                <p className="text-gray-600 mb-2">Krakow, Poland</p>
+                <h3 className="text-xl font-bold mb-2">Ogrodzenie Nieruchomości Komercyjnej</h3>
+                <p className="text-gray-600 mb-2">Kraków, Polska</p>
                 <p className="text-gray-600">
-                  Security fencing for a commercial property with automated gate system and access control.
+                  Ogrodzenie bezpieczeństwa dla nieruchomości komercyjnej z automatycznym systemem bramy i kontrolą dostępu.
                 </p>
               </div>
             </div>
@@ -75,11 +75,11 @@ export default function ProjectsPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Decorative Garden Gate</h3>
-                <p className="text-gray-600 mb-2">Gdansk, Poland</p>
+                <h3 className="text-xl font-bold mb-2">Dekoracyjna Brama Ogrodowa</h3>
+                <p className="text-gray-600 mb-2">Gdańsk, Polska</p>
                 <p className="text-gray-600">
-                  A custom-designed decorative gate that enhances the beauty of a private garden while providing
-                  security.
+                  Indywidualnie zaprojektowana dekoracyjna brama, która podkreśla piękno prywatnego ogrodu, zapewniając
+                  jednocześnie bezpieczeństwo.
                 </p>
               </div>
             </div>
@@ -95,10 +95,10 @@ export default function ProjectsPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Industrial Security Gate</h3>
-                <p className="text-gray-600 mb-2">Wroclaw, Poland</p>
+                <h3 className="text-xl font-bold mb-2">Brama Przemysłowa</h3>
+                <p className="text-gray-600 mb-2">Wrocław, Polska</p>
                 <p className="text-gray-600">
-                  High-security gate solution for an industrial facility with specialized access control systems.
+                  Solidna brama przemysłowa z systemem automatyki, zapewniająca bezpieczeństwo i wygodę użytkowania.
                 </p>
               </div>
             </div>

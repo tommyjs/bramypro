@@ -45,9 +45,9 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-primary" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="container px-4 md:px-6 text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Contact Us</h1>
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Kontakt</h1>
             <p className="mt-4 text-xl text-white/90 max-w-3xl mx-auto">
-              Get in touch with our team for a free consultation and quote
+              Skontaktuj się ze mną, aby uzyskać bezpłatną konsultację i wycenę
             </p>
           </div>
         </div>
@@ -59,23 +59,24 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">Get In Touch</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">Skontaktuj się ze mną</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Have questions about our fencing solutions? Need a quote for your project? Our team is here to help.
-                Contact us using the information below or fill out the form to get started.
+                Masz pytania dotyczące naszych rozwiązań ogrodzeniowych? Potrzebujesz wyceny dla swojego projektu?
+                Nasz zespół jest tutaj, aby pomóc. Skontaktuj się z nami, korzystając z poniższych informacji lub
+                wypełnij formularz, aby rozpocząć.
               </p>
 
               <div className="space-y-6">
                 <div className="flex items-start">
                   <MapPin className="h-6 w-6 text-primary mr-4 mt-0.5" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Address</h3>
+                    <h3 className="font-semibold text-gray-900">Adres</h3>
                     <p className="text-gray-600">
-                      123 Fence Street
+                      ul. Marszałka Józefa Piłsudskiego 14
                       <br />
-                      Warsaw, 00-001
+                      95-050 Konstantynów Łódzki
                       <br />
-                      Poland
+                      NIP 831-145-12-00
                     </p>
                   </div>
                 </div>
@@ -83,10 +84,10 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <Phone className="h-6 w-6 text-primary mr-4 mt-0.5" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Phone</h3>
+                    <h3 className="font-semibold text-gray-900">Telefon</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+48123456789" className="hover:text-primary transition-colors">
-                        +48 123 456 789
+                      <a href="tel:+48783796032" className="hover:text-primary transition-colors">
+                        +48 783 796 032
                       </a>
                     </p>
                   </div>
@@ -97,8 +98,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@bramypro.com" className="hover:text-primary transition-colors">
-                        info@bramypro.com
+                      <a href="mailto:bramypro@gmail.com" className="hover:text-primary transition-colors">
+                        bramypro@gmail.com
                       </a>
                     </p>
                   </div>
@@ -106,19 +107,19 @@ export default function ContactPage() {
               </div>
 
               <div className="mt-12">
-                <h3 className="font-semibold text-gray-900 mb-4">Business Hours</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Godziny otwarcia</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex justify-between">
-                    <span>Monday - Friday:</span>
-                    <span>8:00 AM - 6:00 PM</span>
+                    <span>Poniedziałek - Piątek:</span>
+                    <span>8:00 - 18:00</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Saturday:</span>
-                    <span>9:00 AM - 3:00 PM</span>
+                    <span>Sobota:</span>
+                    <span>9:00 - 15:00</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Sunday:</span>
-                    <span>Closed</span>
+                    <span>Niedziela:</span>
+                    <span>Zamknięte</span>
                   </li>
                 </ul>
               </div>
@@ -152,12 +153,12 @@ export default function ContactPage() {
                 </div>
               ) : (
                 <>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Wyślij wiadomość</h2>
                   <form onSubmit={handleSubmit}>
                     <div className="space-y-4">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                          Full Name *
+                          Imię i Nazwisko *
                         </label>
                         <input
                           type="text"
@@ -172,7 +173,7 @@ export default function ContactPage() {
 
                       <div>
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                          Email Address *
+                          Adres email *
                         </label>
                         <input
                           type="email"
@@ -187,7 +188,7 @@ export default function ContactPage() {
 
                       <div>
                         <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                          Phone Number
+                          Telefon
                         </label>
                         <input
                           type="tel"
@@ -201,7 +202,7 @@ export default function ContactPage() {
 
                       <div>
                         <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                          Your Message *
+                          Twoja wiadomość *
                         </label>
                         <textarea
                           id="message"
@@ -246,7 +247,7 @@ export default function ContactPage() {
                         ) : (
                           <>
                             <Send className="mr-2 h-5 w-5" />
-                            Send Message
+                            Wyślij wiadomość
                           </>
                         )}
                       </button>
@@ -262,7 +263,7 @@ export default function ContactPage() {
       {/* Map Section */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container px-4 md:px-6 mx-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mb-12">Find Us</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mb-12">Znajdź nas</h2>
           <div className="h-[400px] bg-gray-200 rounded-lg overflow-hidden">
             {/* This would be replaced with an actual map component */}
             <div className="w-full h-full flex items-center justify-center bg-gray-300">

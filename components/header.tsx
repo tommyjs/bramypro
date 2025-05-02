@@ -29,13 +29,13 @@ export default function Header() {
               Home
             </Link>
             <Link href="/about" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              About Us
+              O Nas
             </Link>
             <Link href="/projects" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              Our Projects
+              Nasze Realizacje
             </Link>
             <Link href="/contact" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              Contact
+              Kontakt
             </Link>
           </nav>
 
@@ -61,21 +61,21 @@ export default function Header() {
                 className="text-base font-medium text-gray-900 hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About Us
+                O Nas
               </Link>
               <Link
                 href="/projects"
                 className="text-base font-medium text-gray-900 hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Our Projects
+                Nasze Realizacje
               </Link>
               <Link
                 href="/contact"
                 className="text-base font-medium text-gray-900 hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Kontakt
               </Link>
             </nav>
           </div>
