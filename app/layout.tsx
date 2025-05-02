@@ -8,9 +8,8 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bramy Pro - Quality Gates & Fencing Solutions",
-  description: "Professional gate and fence installation and custom designs for residential and commercial properties",
-    generator: 'v0.dev'
+  title: "Bramy Pro - Bramy i Ogrodzenia",
+  description: "Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.",
 }
 
 export default function RootLayout({
