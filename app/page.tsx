@@ -57,7 +57,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="container px-4 md:px-6 text-center">
-              <h1 className="inline-block px-4 py-2 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl drop-shadow-lg backdrop-blur-sm bg-black/70 rounded-xl">
+              <h1 className="inline-block px-4 py-2 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl drop-shadow-lg backdrop-blur-sm bg-black/40 rounded-xl">
                 Bramy i Ogrodzenia
               </h1>
               <p className="mt-4 text-xl text-white max-w-3xl mx-auto drop-shadow-lg backdrop-blur-sm bg-black/40 rounded-xl w-auto p-3">
@@ -110,7 +110,7 @@ export default function Home() {
             {/* Product 1 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:scale-[1.02]">
               <div className="relative h-64">
-                <Image src="/placeholder.svg?height=300&width=400" alt="Modern gate" fill className="object-cover" />
+                <Image src="/bramypro/projects/1746193660381.webp" alt="Nowoczesna brama" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Nowoczesne Bramy</h3>
@@ -126,7 +126,7 @@ export default function Home() {
             {/* Product 2 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:scale-[1.02]">
               <div className="relative h-64">
-                <Image src="/placeholder.svg?height=300&width=400" alt="Slatted fence" fill className="object-cover" />
+                <Image src="/bramypro/projects/1746193799687.webp" alt="Ogrodzenie lamelowe" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Ogrodzenia Lamelowe</h3>

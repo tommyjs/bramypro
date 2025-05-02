@@ -265,10 +265,17 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6 mx-auto">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mb-12">Znajdź nas</h2>
           <div className="h-[400px] bg-gray-200 rounded-lg overflow-hidden">
-            {/* This would be replaced with an actual map component */}
-            <div className="w-full h-full flex items-center justify-center bg-gray-300">
-              <p className="text-gray-600">Map would be displayed here</p>
-            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.145386370252!2d19.327587076740596!3d51.748664993049424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a4af0c9241a8b%3A0xc55de05ec7ed457e!2zUGnFgnN1ZHNraWVnbyAxNCwgOTUtMDUwIEtvbnN0YW50eW7Ds3cgxYHDs2R6a2k!5e0!3m2!1spl!2spl!4v1746204287695!5m2!1spl!2spl"
+              width="100%"
+              height="100%"
+              style={{ border: 0, borderRadius: '0.75rem' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-full rounded-xl"
+              title="Mapa dojazdu BramyPro"
+            />
           </div>
         </div>
       </section>
