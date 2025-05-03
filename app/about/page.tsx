@@ -6,10 +6,10 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative w-full h-[300px]">
         <Image
-          src="/placeholder.svg?height=300&width=1920"
-          alt="About Bramy Pro"
+          src="/bramypro/projects/ogrodzenia-montaz.webp"
+          alt="Montaż ogrodzeń - Bramy Pro"
           fill
-          className="object-cover brightness-[0.85]"
+          className="object-cover object-[0_30%] brightness-[0.85]"
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 flex items-center justify-center">
