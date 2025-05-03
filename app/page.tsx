@@ -1,12 +1,17 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
+import HeroSlider from "@/components/hero-slider"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
+      {/* Hero Section with Slider for mobile/tablet, mosaic for desktop */}
+      <div className="block md:hidden">
+        <HeroSlider />
+      </div>
       {/* Hero Section */}
-      <section className="relative w-full h-[500px]">
+      <section className="relative w-full h-[500px] hidden md:block">
         {/* Mosaic grid for desktop/tablet, single image for mobile */}
         <div className="absolute inset-0 w-full h-full grid grid-cols-2 grid-rows-2 gap-1
                         sm:grid-cols-2 sm:grid-rows-2
