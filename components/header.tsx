@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import { usePathname } from "next/navigation"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -25,18 +26,37 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-8">
-            <Link href="/" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              Home
-            </Link>
-            <Link href="/about" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              O Nas
-            </Link>
-            <Link href="/projects" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              Nasze Realizacje
-            </Link>
-            <Link href="/contact" className="text-base font-medium text-gray-900 hover:text-primary transition-colors">
-              Kontakt
-            </Link>
+            {(() => {
+              const pathname = usePathname();
+              return (
+                <>
+                  <Link
+                    href="/"
+                    className={`text-base font-medium transition-colors ${pathname === "/" ? "text-primary font-bold underline" : "text-gray-900 hover:text-primary"}`}
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    href="/about"
+                    className={`text-base font-medium transition-colors ${pathname === "/about" ? "text-primary font-bold underline" : "text-gray-900 hover:text-primary"}`}
+                  >
+                    O Nas
+                  </Link>
+                  <Link
+                    href="/projects"
+                    className={`text-base font-medium transition-colors ${pathname === "/projects" ? "text-primary font-bold underline" : "text-gray-900 hover:text-primary"}`}
+                  >
+                    Nasze Realizacje
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className={`text-base font-medium transition-colors ${pathname === "/contact" ? "text-primary font-bold underline" : "text-gray-900 hover:text-primary"}`}
+                  >
+                    Kontakt
+                  </Link>
+                </>
+              );
+            })()}
           </nav>
 
           {/* Mobile Menu Button */}
