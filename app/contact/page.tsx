@@ -146,9 +146,9 @@ export default function ContactPage() {
                       <polyline points="22 4 12 14.01 9 11.01" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Thank You!</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Dziękujemy!</h3>
                   <p className="text-gray-600">
-                    Your message has been sent successfully. We'll get back to you as soon as possible.
+                    Twoja wiadomość została pomyślnie wysłana. Skontaktujemy się z Tobą tak szybko, jak to możliwe.
                   </p>
                 </div>
               ) : (

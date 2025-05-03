@@ -14,7 +14,7 @@ export default function Home() {
           {/* Image 1: always visible */}
           <div className="col-span-2 row-span-2 md:col-span-1 md:row-span-1 relative h-full">
             <Image
-              src="/bramypro/projects/1746194177519.webp"
+              src="/bramypro/projects/brama-czolczyn.webp"
               alt="Realizacja 1"
               fill
               className="object-cover w-full h-full"
@@ -25,7 +25,7 @@ export default function Home() {
           {/* Image 2: visible from sm and up */}
           <div className="hidden sm:block col-span-1 row-span-1 md:col-span-1 md:row-span-1 relative h-full">
             <Image
-              src="/bramypro/projects/1746194260425.webp"
+              src="/bramypro/projects/ogrodzenie-lamelowe-szare.webp"
               alt="Realizacja 2"
               fill
               className="object-cover w-full h-full"
@@ -35,7 +35,7 @@ export default function Home() {
           {/* Image 3: visible from md and up */}
           <div className="hidden md:block col-span-1 row-span-1 relative h-full">
             <Image
-              src="/bramypro/projects/1746194668189.webp"
+              src="/bramypro/projects/ogrodzenie-lamelowe-grafitowe.webp"
               alt="Realizacja 3"
               fill
               className="object-cover w-full h-full"
@@ -45,7 +45,7 @@ export default function Home() {
           {/* Image 4: visible from md and up */}
           <div className="hidden md:block col-span-1 row-span-1 relative h-full">
             <Image
-              src="/bramypro/projects/1746194709119.webp"
+              src="/bramypro/projects/ogrodzenie-lamelowe-grafitowe-pionowe.webp"
               alt="Realizacja 4"
               fill
               className="object-cover w-full h-full"
