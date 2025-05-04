@@ -14,42 +14,6 @@ export default function Footer() {
             <p className="text-gray-300 mb-4">
               Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.
             </p>
-            <div className="flex items-center space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Facebook">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-5 w-5"
-                >
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                </svg>
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Instagram">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-5 w-5"
-                >
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                </svg>
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -85,13 +49,16 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-orange-700 mr-3 mt-0.5" />
-                <span className="text-gray-300">
-                  ul. Marszałka Józefa Piłsudskiego 14
-                  <br />
-                  95-050 Konstantynów Łódzki
-                  <br />
-                  NIP 831-145-12-00
-                </span>
+                <a
+                      href="https://www.google.com/maps/dir/?api=1&destination=ul.+Marsza%C5%82ka+J%C3%B3zefa+Pi%C5%82sudskiego+14,+95-050+Konstantyn%C3%B3w+%C5%81%C3%B3dzki"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-300 hover:text-white"
+                    >
+                      ul. Marszałka Józefa Piłsudskiego 14<br />
+                      95-050 Konstantynów Łódzki<br />
+                      NIP 831-145-12-00
+                    </a>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-orange-700 mr-3" />

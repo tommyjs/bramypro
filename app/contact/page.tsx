@@ -72,20 +72,15 @@ export default function ContactPage() {
                   <MapPin className="h-6 w-6 text-primary mr-4 mt-0.5" />
                   <div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-1">Adres</h3>
-                    <p className="text-gray-600">
-                      ul. Marszałka Józefa Piłsudskiego 14
-                      <br />
-                      95-050 Konstantynów Łódzki
-                      <br />
-                      NIP 831-145-12-00
-                    </p>
                     <a
-                      href="https://maps.google.com"
+                      href="https://www.google.com/maps/dir/?api=1&destination=ul.+Marsza%C5%82ka+J%C3%B3zefa+Pi%C5%82sudskiego+14,+95-050+Konstantyn%C3%B3w+%C5%81%C3%B3dzki"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center text-primary hover:text-orange-800 mt-2 text-sm"
+                      className="text-gray-600 hover:text-primary"
                     >
-                      Znajdź na Google Maps <ExternalLink className="ml-1 h-3 w-3" />
+                      ul. Marszałka Józefa Piłsudskiego 14<br />
+                      95-050 Konstantynów Łódzki<br />
+                      NIP 831-145-12-00
                     </a>
                   </div>
                 </div>
@@ -99,7 +94,7 @@ export default function ContactPage() {
                         +48 783 796 032
                       </a>
                     </p>
-                    <p className="text-sm text-gray-500 mt-1">Available Monday-Friday, 8:00 AM - 6:00 PM</p>
+                    <p className="text-sm text-gray-500 mt-1">Poniedziałek-Piątek, 8:00 - 18:00</p>
                   </div>
                 </div>
 
@@ -112,7 +107,7 @@ export default function ContactPage() {
                         info@bramypro.com
                       </a>
                     </p>
-                    <p className="text-sm text-gray-500 mt-1">We typically respond within 24 hours</p>
+                    <p className="text-sm text-gray-500 mt-1">Postaramy się odpowiedzieć w ciągu 24 godzin</p>
                   </div>
                 </div>
               </div>
