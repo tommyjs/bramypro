@@ -96,8 +96,9 @@ export default function Home() {
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Jesteśmy dynamicznie rozwijającą się firmą stworzoną z myślą o klientach, ceniącą niezawodność, uczciwość i
               profesjonalizm. Specjalizujemy się w sprzedaży i montażu bram oraz ogrodzeń. Nasza oferta obejmuje nowoczesne
-              bramy, ogrodzenia lamelowe, ogrodzenia betonowe, podmurówki, panele ogrodzeniowe, siatki ogrodzeniowe, bramy
-              aluminiowe, akcesoria do bram i ogrodzeń oraz automatyka.
+              bramy, ogrodzenia lamelowe, ogrodzenia sztachetowe, panele ogrodzeniowe, siatki ogrodzeniowe, bramy
+              aluminiowe, słupki multimedialne, furtki, akcesoria do bram i ogrodzeń oraz automatyka.
+
             </p>
             <p className="mt-4 text-lg leading-8 text-gray-600">
               Podchodzimy do każdego klienta indywidualnie. Każde zlecenie jest dla nas wyzwaniem, a naszym celem jest
@@ -122,7 +123,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Współczesne projekty łączące estetykę z funkcjonalnością dla eleganckiego wyglądu.
                 </p>
-                <Link href="/products/modern" className="inline-flex items-center text-primary hover:text-orange-800">
+                <Link href="/contact" className="inline-flex items-center text-primary hover:text-orange-800">
                   Dowiedz się więcej <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -138,7 +139,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Eleganckie poziome lub pionowe projekty lamelowe zapewniające prywatność przy zachowaniu stylu.
                 </p>
-                <Link href="/products/slatted" className="inline-flex items-center text-primary hover:text-orange-800">
+                <Link href="/contact" className="inline-flex items-center text-primary hover:text-orange-800">
                   Dowiedz się więcej <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -154,7 +155,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Zaawansowane systemy automatyki zapewniające wygodny i bezpieczny dostęp do Twojej posesji.
                 </p>
-                <Link href="/products/automation" className="inline-flex items-center text-primary hover:text-orange-800">
+                <Link href="/contact" className="inline-flex items-center text-primary hover:text-orange-800">
                   Dowiedz się więcej <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
