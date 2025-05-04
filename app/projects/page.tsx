@@ -5,71 +5,71 @@ import { useState } from "react"
 
 const projectImages = [
   {
-    src: "/bramypro/projects/brama-czolczyn.webp",
+    src: "/projects/brama-czolczyn.webp",
     alt: "Brama Czołczyn",
   },
   {
-    src: "/bramypro/projects/ogrodzenie-lamelowe-grafitowe-pionowe.webp",
+    src: "/projects/ogrodzenie-lamelowe-grafitowe-pionowe.webp",
     alt: "Ogrodzenie lamelowe grafitowe pionowe",
   },
   {
-    src: "/bramypro/projects/ogrodzenie-lamelowe-grafitowe.webp",
+    src: "/projects/ogrodzenie-lamelowe-grafitowe.webp",
     alt: "Ogrodzenie lamelowe grafitowe",
   },
   {
-    src: "/bramypro/projects/ogrodzenie-lamelowe-szare.webp",
+    src: "/projects/ogrodzenie-lamelowe-szare.webp",
     alt: "Ogrodzenie lamelowe szare",
   },
   {
-    src: "/bramypro/projects/ogrodzenia-montaz.webp",
+    src: "/projects/ogrodzenia-montaz.webp",
     alt: "Montaż ogrodzeń",
   },
   {
-    src: "/bramypro/projects/1746193660381.webp",
+    src: "/projects/1746193660381.webp",
     alt: "Nowoczesna brama",
   },
   {
-    src: "/bramypro/projects/1746193799687.webp",
+    src: "/projects/1746193799687.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746193838253.webp",
+    src: "/projects/1746193838253.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746193892251.webp",
+    src: "/projects/1746193892251.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746193969268.webp",
+    src: "/projects/1746193969268.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194014649.webp",
+    src: "/projects/1746194014649.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194097869.webp",
+    src: "/projects/1746194097869.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194228980.webp",
+    src: "/projects/1746194228980.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194286503.webp",
+    src: "/projects/1746194286503.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194375771.webp",
+    src: "/projects/1746194375771.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194643049.webp",
+    src: "/projects/1746194643049.webp",
     alt: "Ogrodzenie lamelowe",
   },
   {
-    src: "/bramypro/projects/1746194865346.webp",
+    src: "/projects/1746194865346.webp",
     alt: "Ogrodzenie lamelowe",
   }
 ]
@@ -97,7 +97,7 @@ export default function ProjectsGallery() {
       {/* Hero Section */}
       <section className="relative w-full h-[300px]">
         <Image
-          src="/bramypro/projects/ogrodzenia-montaz.webp"
+          src="/projects/ogrodzenia-montaz.webp"
           alt="Montaż ogrodzeń - Bramy-Pro"
           fill
           className="object-cover object-[0_30%] brightness-[0.85]"

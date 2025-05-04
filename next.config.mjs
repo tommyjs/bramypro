@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
-const repo = 'bramypro';
+// const repo = 'bramypro';
 
 const nextConfig = {
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
+  // basePath: `/${repo}`,
+  // assetPrefix: `/${repo}/`,
   eslint: {
     ignoreDuringBuilds: true,
   },
