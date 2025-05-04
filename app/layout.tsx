@@ -8,8 +8,28 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bramy-Pro - Bramy i Ogrodzenia",
-  description: "Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.",
+  title: "BRAMY-PRO - Bramy i Ogrodzenia",
+  description: "Profesjonalny montaż bram i ogrodzeń. Palisadowe, panelowe, furtki, bramy, automatyka. Skontaktuj się: 783 796 032",
+  openGraph: {
+    title: "BRAMY-PRO - Bramy i Ogrodzenia",
+    description: "Profesjonalny montaż bram i ogrodzeń. Palisadowe, panelowe, furtki, bramy, automatyka. Skontaktuj się: 783 796 032",
+    url: "https://bramypro.pl",
+    type: "website",
+    images: [
+      {
+        url: "/bramypro-logo-og.png",
+        width: 1200,
+        height: 630,
+        alt: "BRAMY-PRO - Bramy i Ogrodzenia",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BRAMY-PRO - Bramy i Ogrodzenia",
+    description: "Profesjonalny montaż bram i ogrodzeń. Palisadowe, panelowe, furtki, bramy, automatyka. Skontaktuj się: 783 796 032",
+    images: ["/bramypro-logo-og.png"],
+  },
 }
 
 export default function RootLayout({
@@ -20,12 +40,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="og:title" content="BRAMY-PRO - Bramy i Ogrodzenia" />
-        <meta property="og:description" content="Profesjonalny montaż bram i ogrodzeń. Palisadowe, panelowe, furtki, bramy, automatyka. Skontaktuj się: 783 796 032" />
-        <meta property="og:image" content="/bramypro-logo-og.png" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bramypro.pl" />
-        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
       </head>
       <body className={inter.className}>
