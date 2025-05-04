@@ -83,7 +83,7 @@ export default function ContactPage() {
                       href="https://maps.google.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center text-primary hover:text-blue-800 mt-2 text-sm"
+                      className="inline-flex items-center text-primary hover:text-orange-800 mt-2 text-sm"
                     >
                       Znajdź na Google Maps <ExternalLink className="ml-1 h-3 w-3" />
                     </a>
@@ -146,14 +146,14 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-100">
-                <h4 className="font-semibold text-blue-800 mb-2">Zamów bezpłatną konsultację</h4>
-                <p className="text-blue-700 text-sm mb-3">
+              <div className="mt-8 p-4 bg-orange-50 rounded-lg border border-orange-100">
+                <h4 className="font-semibold text-orange-800 mb-2">Zamów bezpłatną konsultację</h4>
+                <p className="text-orange-700 text-sm mb-3">
                   Aby uzyskać najlepsze rezultaty, zalecamy umówienie się na konsultację.
                 </p>
                 <div className="flex items-center">
-                  <Phone className="h-5 w-5 text-blue-700 mr-2" />
-                  <a href="tel:+48783796032" className="text-blue-700 font-medium hover:underline">
+                  <Phone className="h-5 w-5 text-orange-700 mr-2" />
+                  <a href="tel:+48783796032" className="text-orange-700 font-medium hover:underline">
                     +48 783 796 032
                   </a>
                 </div>

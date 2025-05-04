@@ -71,7 +71,7 @@ export default function Home() {
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/contact"
-                  className="inline-flex h-12 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-white shadow-lg drop-shadow-lg transition-colors hover:bg-blue-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  className="inline-flex h-12 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-white shadow-lg drop-shadow-lg transition-colors hover:bg-orange-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   Darmowa Wycena
                 </Link>
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-              <span className="text-primary">BRAMY PRO</span> BRAMY I OGRODZENIA
+              <span className="text-primary">BRAMY-PRO</span> BRAMY I OGRODZENIA
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Jesteśmy dynamicznie rozwijającą się firmą stworzoną z myślą o klientach, ceniącą niezawodność, uczciwość i
@@ -122,7 +122,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Współczesne projekty łączące estetykę z funkcjonalnością dla eleganckiego wyglądu.
                 </p>
-                <Link href="/products/modern" className="inline-flex items-center text-primary hover:text-blue-800">
+                <Link href="/products/modern" className="inline-flex items-center text-primary hover:text-orange-800">
                   Dowiedz się więcej <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -138,7 +138,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Eleganckie poziome lub pionowe projekty lamelowe zapewniające prywatność przy zachowaniu stylu.
                 </p>
-                <Link href="/products/slatted" className="inline-flex items-center text-primary hover:text-blue-800">
+                <Link href="/products/slatted" className="inline-flex items-center text-primary hover:text-orange-800">
                   Dowiedz się więcej <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
@@ -154,7 +154,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Zaawansowane systemy automatyki zapewniające wygodny i bezpieczny dostęp do Twojej posesji.
                 </p>
-                <Link href="/products/automation" className="inline-flex items-center text-primary hover:text-blue-800">
+                <Link href="/products/automation" className="inline-flex items-center text-primary hover:text-orange-800">
                   Dowiedz się więcej <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>

@@ -17,7 +17,7 @@ export default function Header() {
             <div className="relative h-12 w-48">
               <div className="flex items-center">
                 <span className="text-3xl font-bold">
-                  <span className="text-primary">BRAMY</span> PRO
+                  <span className="text-primary">BRAMY</span>-PRO
                 </span>
               </div>
               <span className="block text-sm text-gray-600 mt-[-5px]">BRAMY I OGRODZENIA</span>

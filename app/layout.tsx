@@ -8,7 +8,7 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bramy Pro - Bramy i Ogrodzenia",
+  title: "Bramy-Pro - Bramy i Ogrodzenia",
   description: "Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.",
 }
 

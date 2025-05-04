@@ -7,7 +7,7 @@ export default function AboutPage() {
       <section className="relative w-full h-[300px]">
         <Image
           src="/bramypro/projects/ogrodzenia-montaz.webp"
-          alt="Montaż ogrodzeń - Bramy Pro"
+          alt="Montaż ogrodzeń - Bramy-Pro"
           fill
           className="object-cover object-[0_30%] brightness-[0.85]"
         />
@@ -26,7 +26,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">Nasza Historia</h2>
               <p className="text-lg text-gray-600 mb-4">
-                <span className="font-semibold text-primary">BRAMY PRO</span> to dynamicznie rozwijająca się firma
+                <span className="font-semibold text-primary">BRAMY-PRO</span> to dynamicznie rozwijająca się firma
                 stworzona z myślą o klientach, ceniąca niezawodność, uczciwość i profesjonalizm.
               </p>
               <p className="text-lg text-gray-600 mb-4">
@@ -62,7 +62,7 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Value 1 */}
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -88,7 +88,7 @@ export default function AboutPage() {
 
             {/* Value 2 */}
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -113,7 +113,7 @@ export default function AboutPage() {
 
             {/* Value 3 */}
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

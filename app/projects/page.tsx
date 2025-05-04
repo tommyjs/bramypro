@@ -98,7 +98,7 @@ export default function ProjectsGallery() {
       <section className="relative w-full h-[300px]">
         <Image
           src="/bramypro/projects/ogrodzenia-montaz.webp"
-          alt="Montaż ogrodzeń - Bramy Pro"
+          alt="Montaż ogrodzeń - Bramy-Pro"
           fill
           className="object-cover object-[0_30%] brightness-[0.85]"
         />

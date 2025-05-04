@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">
-              <span className="text-blue-700">BRAMY</span> PRO
+              <span className="text-orange-700">BRAMY</span>-PRO
             </h3>
             <p className="text-gray-300 mb-4">
               Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.
@@ -84,7 +84,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <MapPin className="h-5 w-5 text-blue-700 mr-3 mt-0.5" />
+                <MapPin className="h-5 w-5 text-orange-700 mr-3 mt-0.5" />
                 <span className="text-gray-300">
                   ul. Marszałka Józefa Piłsudskiego 14
                   <br />
@@ -94,13 +94,13 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center">
-                <Phone className="h-5 w-5 text-blue-700 mr-3" />
+                <Phone className="h-5 w-5 text-orange-700 mr-3" />
                 <a href="tel:+48783796032" className="text-gray-300 hover:text-white transition-colors">
                   +48 783 796 032
                 </a>
               </li>
               <li className="flex items-center">
-                <Mail className="h-5 w-5 text-blue-700 mr-3" />
+                <Mail className="h-5 w-5 text-orange-700 mr-3" />
                 <a href="mailto:bramypro@gmail.com" className="text-gray-300 hover:text-white transition-colors">
                   bramypro@gmail.com
                 </a>
@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Bramy Pro. Wszystkie prawa zastrzeżone.</p>
+          <p>&copy; {new Date().getFullYear()} Bramy-Pro. Wszystkie prawa zastrzeżone.</p>
         </div>
       </div>
     </footer>
