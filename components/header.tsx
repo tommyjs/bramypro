@@ -46,7 +46,7 @@ export default function Header() {
                     href="/projects"
                     className={`text-base font-medium transition-colors ${pathname === "/projects" ? "text-primary font-bold underline" : "text-gray-900 hover:text-primary"}`}
                   >
-                    Nasze Realizacje
+                    Nasze Projekty
                   </Link>
                   <Link
                     href="/contact"
@@ -88,7 +88,7 @@ export default function Header() {
                 className="text-base font-medium text-gray-900 hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Nasze Realizacje
+                Nasze Projekty
               </Link>
               <Link
                 href="/contact"

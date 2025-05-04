@@ -1,6 +1,97 @@
-import Image from "next/image"
+"use client"
 
-export default function ProjectsPage() {
+import Image from "next/image"
+import { useState } from "react"
+
+const projectImages = [
+  {
+    src: "/bramypro/projects/brama-czolczyn.webp",
+    alt: "Brama Czołczyn",
+  },
+  {
+    src: "/bramypro/projects/ogrodzenie-lamelowe-grafitowe-pionowe.webp",
+    alt: "Ogrodzenie lamelowe grafitowe pionowe",
+  },
+  {
+    src: "/bramypro/projects/ogrodzenie-lamelowe-grafitowe.webp",
+    alt: "Ogrodzenie lamelowe grafitowe",
+  },
+  {
+    src: "/bramypro/projects/ogrodzenie-lamelowe-szare.webp",
+    alt: "Ogrodzenie lamelowe szare",
+  },
+  {
+    src: "/bramypro/projects/ogrodzenia-montaz.webp",
+    alt: "Montaż ogrodzeń",
+  },
+  {
+    src: "/bramypro/projects/1746193660381.webp",
+    alt: "Nowoczesna brama",
+  },
+  {
+    src: "/bramypro/projects/1746193799687.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746193838253.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746193892251.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746193969268.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194014649.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194097869.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194228980.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194286503.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194375771.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194643049.webp",
+    alt: "Ogrodzenie lamelowe",
+  },
+  {
+    src: "/bramypro/projects/1746194865346.webp",
+    alt: "Ogrodzenie lamelowe",
+  }
+]
+
+export default function ProjectsGallery() {
+  const [modalOpen, setModalOpen] = useState(false)
+  const [currentIdx, setCurrentIdx] = useState(0)
+
+  const openModal = (idx: number) => {
+    setCurrentIdx(idx)
+    setModalOpen(true)
+  }
+  const closeModal = () => setModalOpen(false)
+  const prevImg = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation()
+    setCurrentIdx((idx) => (idx - 1 + projectImages.length) % projectImages.length)
+  }
+  const nextImg = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation()
+    setCurrentIdx((idx) => (idx + 1) % projectImages.length)
+  }
+
   return (
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
@@ -21,191 +112,66 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
-
-      {/* Projects Grid */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container px-4 md:px-6 mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project 1 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-64">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {projectImages.map((img, idx) => (
+              <button
+                key={img.src}
+                className="relative group aspect-[4/3] overflow-hidden rounded-lg shadow hover:scale-[1.03] transition-transform"
+                onClick={() => openModal(idx)}
+                aria-label={`Powiększ zdjęcie: ${img.alt}`}
+              >
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
-                  alt="Modern residential gate"
+                  src={img.src}
+                  alt={img.alt}
                   fill
-                  className="object-cover"
+                  className="object-cover w-full h-full group-hover:brightness-90"
+                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                 />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Nowoczesna Brama Mieszkalna</h3>
-                <p className="text-gray-600 mb-2">Warszawa, Polska</p>
-                <p className="text-gray-600">
-                  Nowoczesna instalacja bramy przesuwnej dla nowoczesnego domu, zapewniająca bezpieczeństwo i styl.
-                </p>
-              </div>
-            </div>
-
-            {/* Project 2 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-64">
-                <Image
-                  src="/placeholder.svg?height=300&width=400"
-                  alt="Commercial property fence"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Ogrodzenie Nieruchomości Komercyjnej</h3>
-                <p className="text-gray-600 mb-2">Kraków, Polska</p>
-                <p className="text-gray-600">
-                  Ogrodzenie bezpieczeństwa dla nieruchomości komercyjnej z automatycznym systemem bramy i kontrolą dostępu.
-                </p>
-              </div>
-            </div>
-
-            {/* Project 3 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-64">
-                <Image
-                  src="/placeholder.svg?height=300&width=400"
-                  alt="Decorative garden gate"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Dekoracyjna Brama Ogrodowa</h3>
-                <p className="text-gray-600 mb-2">Gdańsk, Polska</p>
-                <p className="text-gray-600">
-                  Indywidualnie zaprojektowana dekoracyjna brama, która podkreśla piękno prywatnego ogrodu, zapewniając
-                  jednocześnie bezpieczeństwo.
-                </p>
-              </div>
-            </div>
-
-            {/* Project 4 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-64">
-                <Image
-                  src="/placeholder.svg?height=300&width=400"
-                  alt="Industrial gate"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Brama Przemysłowa</h3>
-                <p className="text-gray-600 mb-2">Wrocław, Polska</p>
-                <p className="text-gray-600">
-                  Solidna brama przemysłowa z systemem automatyki, zapewniająca bezpieczeństwo i wygodę użytkowania.
-                </p>
-              </div>
-            </div>
-
-            {/* Project 5 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-64">
-                <Image
-                  src="/placeholder.svg?height=300&width=400"
-                  alt="Residential privacy fence"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Residential Privacy Fence</h3>
-                <p className="text-gray-600 mb-2">Poznan, Poland</p>
-                <p className="text-gray-600">
-                  A combination of concrete and metal elements creating a beautiful and private boundary for a family
-                  home.
-                </p>
-              </div>
-            </div>
-
-            {/* Project 6 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-64">
-                <Image
-                  src="/placeholder.svg?height=300&width=400"
-                  alt="Modern gate system"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Modern Gate System</h3>
-                <p className="text-gray-600 mb-2">Lodz, Poland</p>
-                <p className="text-gray-600">
-                  An automated sliding gate with integrated access control for a modern residential complex.
-                </p>
-              </div>
-            </div>
+              </button>
+            ))}
           </div>
         </div>
       </section>
-
-      {/* Testimonials */}
-      <section className="py-12 md:py-16 bg-gray-50">
-        <div className="container px-4 md:px-6 mx-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mb-12">What Our Clients Say</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Testimonial 1 */}
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <div className="text-blue-700">
-                  {[...Array(5)].map((_, i) => (
-                    <span key={i} className="inline-block">
-                      ★
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                "The team at Bramy Pro did an outstanding job on our property. The gate looks beautiful, and the
-                installation was quick and professional. Highly recommended!"
-              </p>
-              <div className="font-semibold">Marta K., Warsaw</div>
-            </div>
-
-            {/* Testimonial 2 */}
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <div className="text-blue-700">
-                  {[...Array(5)].map((_, i) => (
-                    <span key={i} className="inline-block">
-                      ★
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                "We needed a secure gate for our commercial property, and Bramy Pro delivered exactly what we needed.
-                The automated system works perfectly, and the gate provides the security we required."
-              </p>
-              <div className="font-semibold">Tomasz B., Krakow</div>
-            </div>
-
-            {/* Testimonial 3 */}
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <div className="text-blue-700">
-                  {[...Array(5)].map((_, i) => (
-                    <span key={i} className="inline-block">
-                      ★
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                "The design consultation was incredibly helpful. They listened to our needs and suggested the perfect
-                solution for our garden. The finished gate exceeded our expectations."
-              </p>
-              <div className="font-semibold">Agnieszka W., Gdansk</div>
-            </div>
+      {/* Modal Overlay */}
+      {modalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+          onClick={closeModal}
+        >
+          <button
+            className="absolute top-4 right-4 text-white text-3xl font-bold bg-black/60 rounded-full w-10 h-10 flex items-center justify-center hover:bg-black/80 transition"
+            onClick={closeModal}
+            aria-label="Zamknij podgląd"
+          >
+            ×
+          </button>
+          <button
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl font-bold bg-black/60 rounded-full w-10 h-10 flex items-center justify-center hover:bg-black/80 transition"
+            onClick={prevImg}
+            aria-label="Poprzednie zdjęcie"
+          >
+            ‹
+          </button>
+          <div className="relative w-[90vw] max-w-3xl aspect-[4/3] flex items-center justify-center">
+            <Image
+              src={projectImages[currentIdx].src}
+              alt={projectImages[currentIdx].alt}
+              fill
+              className="object-contain rounded-lg shadow-lg"
+              sizes="90vw"
+            />
           </div>
+          <button
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-3xl font-bold bg-black/60 rounded-full w-10 h-10 flex items-center justify-center hover:bg-black/80 transition"
+            onClick={nextImg}
+            aria-label="Następne zdjęcie"
+          >
+            ›
+          </button>
         </div>
-      </section>
+      )}
     </main>
   )
 }

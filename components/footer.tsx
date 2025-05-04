@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/projects" className="text-gray-300 hover:text-white transition-colors">
-                  Nasz Realizacje
+                  Nasze Projekty
                 </Link>
               </li>
               <li>
