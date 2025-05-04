@@ -19,6 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="BRAMY-PRO - Bramy i Ogrodzenia" />
+        <meta property="og:description" content="Profesjonalny montaż bram i ogrodzeń. Palisadowe, panelowe, furtki, bramy, automatyka. Skontaktuj się: 783 796 032" />
+        <meta property="og:image" content="/bramypro-logo-og.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bramypro.pl" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body className={inter.className}>
         <Header />
         {children}
