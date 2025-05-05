@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Mail, Phone, MapPin } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,9 +9,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">
-              <span className="text-orange-700">BRAMY</span>-PRO
-            </h3>
+            <div className="mb-4 flex items-center justify-start">
+              <Image
+                src="/bramy-pro-logo.png"
+                alt="BRAMY-PRO logo"
+                width={70}
+                height={20}
+                className="object-contain h-5 w-auto"
+                priority={false}
+              />
+            </div>
             <p className="text-gray-300 mb-4">
               Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.
             </p>

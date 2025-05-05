@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { usePathname } from "next/navigation"
+import Image from "next/image"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,11 +16,14 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="relative h-12 w-48">
-              <div className="flex items-center">
-                <span className="text-3xl font-bold">
-                  <span className="text-primary">BRAMY</span>-PRO
-                </span>
-              </div>
+              <Image
+                src="/bramy-pro-logo.png"
+                alt="BRAMY-PRO logo"
+                width={180}
+                height={48}
+                className="object-contain h-12 w-auto"
+                priority
+              />
               <span className="block text-sm text-gray-600 mt-[-5px]">BRAMY I OGRODZENIA</span>
             </div>
           </Link>
