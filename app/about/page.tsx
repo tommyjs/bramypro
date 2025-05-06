@@ -35,8 +35,7 @@ export default function AboutPage() {
                 ale ważne elementy estetyki i bezpieczeństwa Twojej posesji.
               </p>
               <p className="text-lg text-gray-600">
-                Podchodzimy do każdego klienta indywidualnie. Każde zlecenie jest dla nas wyzwaniem, a naszym celem jest
-                zadowolony klient, który będzie cieszył się swoją bramą i ogrodzeniem przez wiele lat.
+                Podchodzimy do każdego klienta indywidualnie. Każde ogrodzenie staramy się wykonać profesjonalnie, aby przez długi czas służyło naszemu klientowi.
               </p>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">

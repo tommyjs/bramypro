@@ -94,15 +94,12 @@ export default function Home() {
               <span className="text-primary">BRAMY-PRO</span> BRAMY I OGRODZENIA
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Jesteśmy dynamicznie rozwijającą się firmą stworzoną z myślą o klientach, ceniącą niezawodność, uczciwość i
-              profesjonalizm. Specjalizujemy się w sprzedaży i montażu bram oraz ogrodzeń. Nasza oferta obejmuje nowoczesne
-              bramy, ogrodzenia lamelowe, ogrodzenia sztachetowe, panele ogrodzeniowe, siatki ogrodzeniowe, bramy
-              aluminiowe, słupki multimedialne, furtki, akcesoria do bram i ogrodzeń oraz automatyka.
-
+              Jesteśmy firmą stworzoną z myślą o klientach, ceniących niezawodność i profesjonalizm.
+              Specjalizujemy się w sprzedaży i montażu bram oraz ogrodzeń.
+              Nasza oferta obejmuje nowoczesne bramy, ogrodzenia palisadowe, lamelowe, sztachetowe, panelowe, siatki ogrodzeniowe, słupki multimedialne, furtki, akcesoria do bram i ogrodzeń oraz automatyka.
             </p>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              Podchodzimy do każdego klienta indywidualnie. Każde zlecenie jest dla nas wyzwaniem, a naszym celem jest
-              zadowolony klient, który będzie cieszył się swoją bramą i ogrodzeniem przez wiele lat.
+              Podchodzimy do każdego klienta indywidualnie. Każde ogrodzenie staramy się wykonać profesjonalnie, aby przez długi czas służyło naszemu klientowi.
             </p>
           </div>
         </div>
@@ -135,7 +132,7 @@ export default function Home() {
                 <Image src="/projects/1746193799687.webp" alt="Ogrodzenie lamelowe" fill className="object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Ogrodzenia Lamelowe</h3>
+                <h3 className="text-xl font-bold mb-2">Ogrodzenia Palisadowe</h3>
                 <p className="text-gray-600 mb-4">
                   Eleganckie poziome lub pionowe projekty lamelowe zapewniające prywatność przy zachowaniu stylu.
                 </p>
@@ -148,7 +145,7 @@ export default function Home() {
             {/* Product 3 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:scale-[1.02]">
               <div className="relative h-64">
-                <Image src="/placeholder.svg?height=300&width=400" alt="Automatic gate" fill className="object-cover" />
+                <Image src="/projects/1746193892251.webp" alt="Automatyka bram" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Automatyka Bram</h3>

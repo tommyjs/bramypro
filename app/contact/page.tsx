@@ -63,7 +63,7 @@ export default function ContactPage() {
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">Skontaktuj się ze mną</h2>
               <p className="text-lg text-gray-600 mb-8">
                 Masz pytania dotyczące naszych rozwiązań ogrodzeniowych? Potrzebujesz wyceny dla swojego projektu?
-                Nasz zespół jest tutaj, aby pomóc. Skontaktuj się z nami, korzystając z poniższych informacji lub
+                Jesteśmy tutaj, aby pomóc. Skontaktuj się z nami, korzystając z poniższych informacji lub
                 napisz maila lub zadzwoń.
               </p>
 
@@ -103,8 +103,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 text-lg mb-1">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@bramypro.com" className="hover:text-primary transition-colors">
-                        info@bramypro.com
+                      <a href="mailto:bramypro@gmail.com" className="hover:text-primary transition-colors">
+                        bramypro@gmail.com
                       </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">Postaramy się odpowiedzieć w ciągu 24 godzin</p>
