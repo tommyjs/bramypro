@@ -41,7 +41,7 @@ export default function AboutPage() {
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <div className="text-center">
                   <div className="relative h-64 w-64 mx-auto rounded-full overflow-hidden mb-6">
-                    <Image src="/placeholder.svg?height=300&width=300" alt="Team member" fill className="object-cover" />
+                    <Image src="/slawek.JPG" alt="Sławomir Gajtka - profil" fill className="object-cover object-[-50%_100%]" />
                   </div>
                   <h3 className="text-xl font-bold">Sławomir Gajtka</h3>
                   <p className="text-primary mb-3">Założyciel</p>
