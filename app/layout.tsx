@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://host578273.xce.pl/bramypro-logo-og.png",
+        url: "https://bramypro.pl/bramypro-logo-og.png",
         width: 1200,
         height: 630,
         alt: "BRAMY-PRO - Bramy i Ogrodzenia",
@@ -28,8 +28,28 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BRAMY-PRO - Bramy i Ogrodzenia",
     description: "Profesjonalny montaż bram i ogrodzeń. Palisadowe, panelowe, furtki, bramy, automatyka. Skontaktuj się: 783 796 032",
-    images: ["https://host578273.xce.pl/bramypro-logo-og.png"],
+    images: ["https://bramypro.pl/bramypro-logo-og.png"],
   },
+  alternates: {
+    canonical: "https://bramypro.pl/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  themeColor: "#1A2233",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
+  metadataBase: new URL("https://bramypro.pl"),
 }
 
 export default function RootLayout({
@@ -38,9 +58,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <head>
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="theme-color" content="#1A2233" />
+        <link rel="canonical" href="https://bramypro.pl/" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </head>
       <body className={inter.className}>
         <Header />
