@@ -35,7 +35,7 @@ export default function AboutPage() {
                 ale ważne elementy estetyki i bezpieczeństwa Twojej posesji.
               </p>
               <p className="text-lg text-gray-600">
-                Podchodzimy do każdego klienta indywidualnie. Każde ogrodzenie staramy się wykonać profesjonalnie, aby przez długi czas służyło naszemu klientowi.
+                Podchodzimy do każdego klienta indywidualnie. Każde ogrodzenie staramy się wykonać profesjonalnie, aby przez długi czas służyło naszemu klientowi w Konstantynowie Łódzkim, Łodzi i okolicach.
               </p>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
@@ -46,7 +46,7 @@ export default function AboutPage() {
                   <h3 className="text-xl font-bold">Sławomir Gajtka</h3>
                   <p className="text-primary mb-3">Założyciel</p>
                   <p className="text-gray-600">
-                    Z ponad 20-letnim doświadczeniem w branży bram i ogrodzeń, Sławomir montuje bramy i ogrodzenia z pasją i profesjonalizmem.
+                    Z ponad 20-letnim doświadczeniem w branży bram i ogrodzeń, Sławomir montuje bramy i ogrodzenia z pasją i profesjonalizmem w Konstantynowie Łódzkim, Pabianicach, Lutomiersku, Łodzi, Zgierzu, Aleksandrowie Łódzkim, Poddębicach i okolicach.
                   </p>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold mb-3">Jakość</h3>
               <p className="text-gray-600">
                 Używamy tylko najwyższej jakości materiałów i zatrudniamy wykwalifikowanych rzemieślników, aby zapewnić,
-                że każda brama i ogrodzenie, które instalujemy, spełniają nasze wymagające standardy.
+                że każda brama i ogrodzenie, które instalujemy w Konstantynowie Łódzkim, Łodzi i okolicach, spełniają nasze wymagające standardy.
               </p>
             </div>
 

@@ -107,7 +107,7 @@ export default function ProjectsGallery() {
           <div className="container px-4 md:px-6 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Nasze Projekty</h1>
             <p className="mt-4 text-xl text-white max-w-3xl mx-auto">
-              Poznaj nasze portfolio przykładowych zrealizowanych instalacji bram i ogrodzeń
+              Poznaj nasze portfolio przykładowych zrealizowanych instalacji bram i ogrodzeń w Konstantynowie Łódzkim, Pabianicach, Lutomiersku, Łodzi, Zgierzu, Aleksandrowie Łódzkim, Poddębicach i okolicach
             </p>
           </div>
         </div>

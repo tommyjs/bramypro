@@ -66,7 +66,7 @@ export default function Home() {
                 Bramy i Ogrodzenia
               </h1>
               <p className="mt-4 text-xl text-white max-w-3xl mx-auto drop-shadow-lg backdrop-blur-sm bg-black/40 rounded-xl w-auto p-3">
-                Profesjonalna instalacja, indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.
+                Profesjonalna instalacja bram i ogrodzeń w Konstantynowie Łódzkim, Pabianicach, Lutomiersku, Łodzi, Zgierzu, Aleksandrowie Łódzkim, Poddębicach i okolicach. Indywidualne projekty dla nieruchomości mieszkalnych i komercyjnych.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
@@ -99,7 +99,7 @@ export default function Home() {
               Nasza oferta obejmuje nowoczesne bramy, ogrodzenia palisadowe, lamelowe, sztachetowe, panelowe, siatki ogrodzeniowe, słupki multimedialne, furtki, akcesoria do bram i ogrodzeń oraz automatyka.
             </p>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              Podchodzimy do każdego klienta indywidualnie. Każde ogrodzenie staramy się wykonać profesjonalnie, aby przez długi czas służyło naszemu klientowi.
+              Podchodzimy do każdego klienta indywidualnie. Każde ogrodzenie staramy się wykonać profesjonalnie, aby przez długi czas służyło naszemu klientowi w Konstantynowie Łódzkim, Łodzi i okolicach.
             </p>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function Home() {
         <div className="container px-4 md:px-6 mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white">Gotowy, aby ulepszyć swoją posesję?</h2>
           <p className="mt-4 text-xl text-white/90 max-w-2xl mx-auto">
-            Skontaktuj się z nami już dziś, aby uzyskać bezpłatną konsultację i wycenę. Jestem gotowy,
+            Skontaktuj się z nami już dziś, aby uzyskać bezpłatną konsultację i wycenę na bramy i ogrodzenia w Konstantynowie Łódzkim, Pabianicach, Lutomiersku, Łodzi, Zgierzu, Aleksandrowie Łódzkim, Poddębicach i okolicach. Jestem gotowy,
             aby pomóc Ci znaleźć idealne rozwiązanie dla Twojej bramy i ogrodzenia.
           </p>
           <Link

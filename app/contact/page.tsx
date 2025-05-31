@@ -48,7 +48,7 @@ export default function ContactPage() {
           <div className="container px-4 md:px-6 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Kontakt</h1>
             <p className="mt-4 text-xl text-white/90 max-w-3xl mx-auto">
-              Skontaktuj się ze mną, aby uzyskać bezpłatną konsultację i wycenę
+              Skontaktuj się ze mną, aby uzyskać bezpłatną konsultację i wycenę na bramy i ogrodzenia w Konstantynowie Łódzkim, Pabianicach, Lutomiersku, Łodzi, Zgierzu, Aleksandrowie Łódzkim, Poddębicach i okolicach
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">Skontaktuj się ze mną</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Masz pytania dotyczące naszych rozwiązań ogrodzeniowych? Potrzebujesz wyceny dla swojego projektu?
+                Masz pytania dotyczące naszych rozwiązań w zakresie bram i ogrodzeń? Potrzebujesz wyceny dla swojego projektu w Konstantynowie Łódzkim, Pabianicach, Lutomiersku, Łodzi, Zgierzu, Aleksandrowie Łódzkim, Poddębicach i okolicach?
                 Jesteśmy tutaj, aby pomóc. Skontaktuj się z nami, korzystając z poniższych informacji lub
                 napisz maila lub zadzwoń.
               </p>
@@ -144,7 +144,7 @@ export default function ContactPage() {
               <div className="mt-8 p-4 bg-orange-50 rounded-lg border border-orange-100">
                 <h4 className="font-semibold text-orange-800 mb-2">Zamów bezpłatną konsultację</h4>
                 <p className="text-orange-700 text-sm mb-3">
-                  Aby uzyskać najlepsze rezultaty, zalecamy umówienie się na konsultację.
+                  Oferujemy bezpłatne konsultacje dotyczące montażu bram i ogrodzeń w Konstantynowie Łódzkim, Łodzi i okolicach.
                 </p>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-orange-700 mr-2" />
@@ -161,7 +161,7 @@ export default function ContactPage() {
       {/* Map Section */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container px-4 md:px-6 mx-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mb-12">Znajdź nas</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mb-12">Znajdź nas w Konstantynowie Łódzkim</h2>
           <div className="h-[400px] bg-gray-200 rounded-lg overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.145386370252!2d19.327587076740596!3d51.748664993049424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a4af0c9241a8b%3A0xc55de05ec7ed457e!2zUGnFgnN1ZHNraWVnbyAxNCwgOTUtMDUwIEtvbnN0YW50eW7Ds3cgxYHDs2R6a2k!5e0!3m2!1spl!2spl!4v1746204287695!5m2!1spl!2spl"
